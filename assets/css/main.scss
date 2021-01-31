@@ -8,18 +8,23 @@
 @import "minimal-mistakes"; // main partials
 
 html {
-    font-size: 14px; // originally 16px
-    @include breakpoint($medium) {
-        font-size: 16px; // originally 18px
-    }
+  font-size: 12px; // change to whatever
 
-    @include breakpoint($large) {
-        font-size: 20px; // originally 20px
-    }
+  @include breakpoint($small) {
+    font-size: 12px; // change to whatever
+  }
 
-    @include breakpoint($x-large) {
-        font-size: 22px; // originally 22px
-    }
+  @include breakpoint($medium) {
+    font-size: 14px; // change to whatever
+  }
+
+  @include breakpoint($large) {
+    font-size: 16px; // change to whatever
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 18px; // change to whatever
+  }
 }
 
 // list title link remove underline
